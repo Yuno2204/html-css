@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 70%;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid #0e482c;
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: pink" />
+        <col span="1" style="background-color: lightcoral" />
+      </colgroup>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Giới thiệu</th>
+      </tr>
+      <tr>
+        <td style="width: 10px">Cen</td>
+        <td style="height: 100px">dqduc2204@gmail.com</td>
+        <td>Cen - Một lập trình viên</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Colspan</p>
+    <table>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td style="width: 50px">Cen</td>
+        <td style="height: 200px">Love</td>
+        <td>dqduc2204@gmail.com</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Rowspan</p>
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Cen</td>
+        <td>Đức</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Email</th>
+        <td>cen@gmail.com</td>
+        <td>dqduc2204l@gmail.com</td>
+      </tr>
+      <tr>
+        <td>cen@gmail.com</td>
+        <td>dqduc2204@gmail.com</td>
+      </tr>
+    </table>
+  </body>
+</html>
